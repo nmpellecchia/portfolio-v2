@@ -19,7 +19,7 @@ function Footer() {
     },
   ];
   return (
-    <footer className="p-6 bg-darkest-color bg-opacity-50">
+    <footer className="p-6 bg-darkest-color bg-opacity-50" id="contact">
       <article className="flex flex-col items-center">
         <h1 className="uppercase text-6xl font-black font-title tracking-widest">
           hablemos
