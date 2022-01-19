@@ -19,11 +19,12 @@ function Footer() {
     },
   ];
   return (
-    <footer className="mx-5 bg-darkest-color bg-opacity-50">
-      <article className="flex flex-col items-center mt-6">
+    <footer className="p-6 bg-darkest-color bg-opacity-50">
+      <article className="flex flex-col items-center">
         <h1 className="uppercase text-6xl font-black font-title tracking-widest">
           hablemos
         </h1>
+
         <div className="text-4xl" aria-hidden="true">
           • ⚊ •
         </div>
