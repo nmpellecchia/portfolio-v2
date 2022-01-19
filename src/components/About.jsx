@@ -2,11 +2,11 @@ import React from 'react';
 
 function AboutMe() {
   return (
-    <section className="min-h-screen text-blackest-color font-semibold p-5 pt-10 bg-main-color bg-opacity-70">
+    <section className="min-h-screen text-blackest-color font-semibold p-5 pt-10 bg-main-color bg-opacity-70 md:min-h-fit md:pb-32">
       <h1 className="text-4xl text-whitest-color font-black uppercase font-title tracking-widest mb-6">
         Soy Nicolas Pellecchia
       </h1>
-      <article>
+      <article className="w-full md:w-3/4">
         <p>
           Un desarrollador front-end de Buenos Aires, Argentina. Me gusta el
           código y los diseños{' '}
@@ -20,9 +20,9 @@ function AboutMe() {
           y aprender las diversas tecnologías de back-end. <br />
         </p>
       </article>
-      <article>
+      <article className="w-full md:w-3/4">
         <p>Algunas tecnologías con las que he trabajado son:</p>
-        <ul className="uppercase flex flex-wrap mt-5">
+        <ul className="uppercase text-whitest-color flex flex-wrap mt-5">
           <li className="basis-1/2 grow">▸React</li>
           <li className="basis-1/2 grow">▸JQuery</li>
           <li className="basis-1/2 grow">▸Javascript</li>
@@ -30,6 +30,7 @@ function AboutMe() {
           <li className="basis-1/2 grow">▸Tailwind</li>
           <li className="basis-1/2 grow">▸Bootstrap</li>
           <li className="basis-1/2 grow">▸HTML semántico</li>
+          <li className="basis-1/2 grow">▸Git</li>
         </ul>
       </article>
     </section>
