@@ -19,15 +19,18 @@ function Footer() {
     },
   ];
   return (
-    <footer className="m-6">
+    <footer className="p-6 bg-darkest-color bg-opacity-50" id="contact">
       <article className="flex flex-col items-center">
-        <h1 className="uppercase text-6xl font-black">hablemos</h1>
+        <h1 className="uppercase text-6xl font-black font-title tracking-widest">
+          hablemos
+        </h1>
+
         <div className="text-4xl" aria-hidden="true">
           • ⚊ •
         </div>
         <a
           href="mailto:nicolasmpellecchia@gmail.com"
-          className="text-red-700 text-2xl hover:underline active:text-red-400"
+          className="text-main-color text-2xl hover:underline hover:text-accent-color"
         >
           nicolasmpellecchia@gmail.com
         </a>
@@ -40,7 +43,7 @@ function Footer() {
         </ul>
       </article>
       <article>
-        <p className="text-slate-800 flex justify-end">
+        <p className="text-slate-500 flex justify-end">
           {currentYear} - Nicolas Pellecchia
         </p>
       </article>
@@ -61,7 +64,7 @@ function SocialElement(props) {
       </h5>
       <a
         href={props.elem.url}
-        className="italic text-red-700 hover:underline active:text-red-400"
+        className="italic text-main-color hover:underline hover:text-accent-color"
       >
         {cropProtocolStr(props.elem.url)}
       </a>

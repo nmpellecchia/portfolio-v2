@@ -11,6 +11,14 @@ function HomePage() {
         ⚊ • ⚊
       </span>
       <h2 className="text-white uppercase mt-5">desarrollador front-end</h2>
+      <div className="w-full flex justify-around mt-6">
+        <button className="uppercase text-whitest-color font-medium rounded-lg bg-accent-color p-3 mb-1 bg-gradient-to-br from-main-color to-accent-color">
+          <a href="#projects">proyectos</a>
+        </button>
+        <button className="uppercase text-whitest-color font-medium rounded-lg bg-accent-color p-3 mb-1 bg-gradient-to-br from-main-color to-accent-color">
+          <a href="#contact">contacto</a>
+        </button>
+      </div>
     </header>
   );
 }
