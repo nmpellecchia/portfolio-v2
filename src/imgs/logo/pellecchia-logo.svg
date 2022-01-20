@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" >
+  <circle style="fill: rgb(216, 216, 216); stroke: #f4edeb; fill-opacity: 0; stroke-dasharray: 0, 45, 189, 0, 268, 0; stroke-width: 17px; stroke-linecap: round; stroke-miterlimit: 1;" cx="232.633" cy="226.234" r="154.022" transform="matrix(0.707107, 0.707106, -0.707106, 0.707107, 228.108214, -98.234043)"/>
+  <line style="fill: rgb(216, 216, 216); stroke: #f4edeb; stroke-width: 17px; stroke-linecap: round; stroke-miterlimit: 1;" x1="137.112" y1="106.033" x2="341.865" y2="335.466"/>
+  <line style="fill: rgb(216, 216, 216); stroke: #f4edeb; stroke-width: 17px; stroke-linecap: round; stroke-miterlimit: 1;" x1="331.81" y1="111.517" x2="230.347" y2="208.41"/>
+  <line style="fill: rgb(216, 216, 216); stroke: #f4edeb; stroke-width: 17px; stroke-linecap: round; stroke-miterlimit: 1;" x1="141.682" y1="345.521" x2="137.112" y2="135.283"/>
+</svg>
