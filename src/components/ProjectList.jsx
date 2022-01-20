@@ -4,7 +4,7 @@ import { ProjectBundle } from '../resources/myProjects';
 function ProjectList() {
   const myProjects = ProjectBundle;
   return (
-    <section className="bg-blackest-color bg-opacity-80">
+    <section className="bg-blackest-color bg-opacity-80" id="projects">
       <ul className="flex flex-wrap justify-center">
         {myProjects.map((project, i) => {
           return <MiniProject project={project} index={i} key={project.name} />;
@@ -18,7 +18,7 @@ function MiniProject({ project, index }) {
   return (
     <li className="group w-full relative overflow-hidden md:w-11/12">
       <figure>
-        <img src={project.img} alt={project.name} className="" />
+        <img src={project.img} alt={project.name} />
         <figcaption className="w-full absolute bottom-0 left-0 translate-y-3/4 group-hover:translate-y-0 bg-blackest-color bg-opacity-0 group-hover:bg-opacity-70 transition duration-500">
           <h3 className="w-10/12 text-4xl uppercase font-title transition duration-500 ml-8 border-b-4 border-slate-700">
             {project.name}
